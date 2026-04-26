@@ -1,0 +1,110 @@
+‎<!DOCTYPE html>
+‎<html>
+‎<head>
+‎    <title>Top 5 Psychological Manga</title>
+‎    <style>
+‎    body {
+‎    background-color: #111;
+‎    color: white;
+‎}
+‎    h1 {
+‎    text-align: center;
+‎    font-size: 28px;
+‎    margin-bottom: 20px;
+‎}
+‎    .manga-list {
+‎    display: flex;
+‎    flex-direction: column;
+‎    align-items: center;
+‎}
+‎        .title {
+‎            font-size: 20px;
+‎            font-weight: bold;
+‎            color: white;
+‎        }
+‎    .manga-card img {
+‎    width: 200px;
+‎    height: auto;
+‎        
+‎}
+‎    .manga-card {
+‎    text-align: center;
+‎    margin-bottom: 20px;
+‎}
+‎.gif {
+‎    display: none;
+‎    width: auto;
+‎    margin-top: 10px;
+‎    display: block;
+‎    margin-left: auto;
+‎    margin-right: auto;
+‎}
+‎    </style>
+‎</head>
+‎<body>
+‎<h1>Top 5 Psychological Manga</h1>
+‎    <h3>This website is about five psychological manga that you must read, as they will make you question your identity and life itself. These manga will definitely broaden your perspective on the world around you. Once you read them, there’s no turning back.</h3>
+‎<div class="manga-list">
+‎<div class="manga-card">
+‎    <img src="/de15c86540e978d07fd2f1c79805d3a3.jpg"
+‎    <div class="title">1. Oyasumi Punpun</div>
+‎        <p>Oyasumi Punpun is a psychological manga about a variety of themes such as abuse, self-deprecation, childhood development, interpersonal relationships, and intimacy. While the story doesn't revolve around sex, it definitely plays a large role in establishing the themes and conflicts present in the story.
+‎A non-spoilery summary is that the story follows Punpun's development into an adult and explores the causes and effects of the action that he makes. Meanwhile, other characters important to Punpun's story occasionally take center focus and are deconstructed in a way outside of Punpun's perspective.</p>
+‎<button onclick="toggleGif(this, '/6a51c992951e1e00b2ec5ced8e4d14d8.gif')">
+‎    Show Spoiler
+‎</button>
+‎<img class="gif" src="/6a51c992951e1e00b2ec5ced8e4d14d8.gif" style="display:none; width:200px;">
+‎</div>
+‎<div class="manga-card">
+‎        <img src="/7d96d871d5369cc0eacca83d243b5fe3.jpg"
+‎    <div class="title">2. Monster</div>
+‎    <p>At the very heart of Monster, the series delves deep into our psyche, into the realm that brings out a certain type of horror. The question it raises is whether a monster lurks in every one of us, how it can be manipulated, and how we may finally overcome it to become a better person. Some people find it quickly, while others, like Eva, suffer much before they truly change for the better. But it never mattered who in particular the story focuses upon, for each and every story arc was profound, filled with tragedy, but ultimately redemption. That a character can be brought to the lowest depths imaginable but then saved or redeemed... those scenes were what delivered such a strong emotional impact for me. Even now, certain scenes still come back to me, clear as the day I watched it.</p>    
+‎<button onclick="toggleGif(this, '/be123c3a5dcaca96202ea511cb43c8e8.gif')">
+‎    Show Spoiler
+‎</button>
+‎<img class="gif" src="/be123c3a5dcaca96202ea511cb43c8e8.gif" style="display:none; width:200px;">
+‎</div>
+‎<div class="manga-card">
+‎        <img src="/af4bcc45aee190d17b39ebe7e2131953.jpg"
+‎    <div class="title">3. Vinland Saga</div>
+‎    <p>Vinland Saga is not about a person who takes revenge from the people who destroyed his life, but a person who was shattered into pieces, turns into a killing machine and then realises that is not life. Life is not about killing everyone and proving you're the best. It's about understanding the cycle of life, hatred creates more hatred and revenge is not how life works. You need to forgive the people who've hurted you in anyway and create a place where things like these do not exist. Thorfinn, a warrior who could've killed everyone, comes to a realisation that life is about forgiving people.</p>
+‎<button onclick="toggleGif(this, '/81a0f8d43360f6ccb5ba74504d94770a.gif')">
+‎    Show Spoiler
+‎</button>
+‎<img class="gif" src="/81a0f8d43360f6ccb5ba74504d94770a.gif" style="display:none; width:200px;">
+‎</div>
+‎<div class="manga-card">
+‎        <img src="/a5a838fa9aabdd10683a63b88f9489c9.jpg"
+‎    <div class="title">4. Death note</div>
+‎    <p>It's a story about how an ordinary person is corrupted by gaining the power to decide who lives and who dies. A teenager finds a notebook that kills anyone whose name he writes in it, and he starts killing huge numbers of criminals, because he reasons that people will notice someone's killing off the criminals and nobody will want to commit crime any more. It ends up becoming about the cat-and-mouse game between him and the detective trying to catch him.</p>
+‎<button onclick="toggleGif(this, '/52c3c57d6ef28aef8a54fbe43220de7d.gif')">
+‎    Show Spoiler
+‎</button>
+‎<img class="gif" src="/52c3c57d6ef28aef8a54fbe43220de7d.gif" style="display:none; width:200px;">
+‎</div>
+‎<div class="manga-card">
+‎        <img src="/3282ff984239b9c21e8f2182a780677c.jpg"
+‎    <div class="title">5. Neon Genesis Evangelion</div>
+‎    <p>Neon Genesis Evangelion is a mecha anime that slowly turns into a psychological breakdown. It’s about identity issues, attachment trauma, and people who want connection but keep pushing it away out of fear of getting hurt. Shinji especially feels like a walking example of avoidance coping mixed with low self-worth and anxiety-driven overthinking.</p>
+‎<button onclick="toggleGif(this, '/643c597dd50c5a8825a67836fc016719.gif')">
+‎    Show Spoiler
+‎</button>
+‎<img class="gif" src="/643c597dd50c5a8825a67836fc016719.gif" style="display:none; width:200px;">
+‎</div>
+‎</div>
+‎<script>
+‎function toggleGif(button, gifSrc) {
+‎    const img = button.nextElementSibling; 
+‎    if (img.style.display === "none" || img.style.display === "") {
+‎        img.src = gifSrc;
+‎        img.style.display = "block";
+‎        button.innerText = "Hide Spoiler";
+‎    } else {
+‎        img.style.display = "none";
+‎        button.innerText = "Show Spoiler";
+‎    }
+‎}
+‎</script>
+‎</body>
+‎</html>
+‎
